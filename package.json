@@ -1,0 +1,23 @@
+{
+  "name": "web-push-demo",
+  "version": "1.0.0",
+  "description": "web push demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nf start"
+  },
+  "keywords": [
+    "push",
+    "notification"
+  ],
+  "author": "yoyoyohamapi",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "web-push": "^3.3.0"
+  }
+}

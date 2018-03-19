@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add koa-static koa-bodyparser
+
+PATH: 
+  /Users/woo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/woo/anaconda/bin
+
+Yarn version: 
+  0.18.1
+
+Node version: 
+  8.2.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "web-push-demo",
+    "version": "1.0.0",
+    "description": "web push demo",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server/index.js"
+    },
+    "keywords": [
+      "push",
+      "notification"
+    ],
+    "author": "yoyoyohamapi",
+    "license": "ISC",
+    "dependencies": {
+      "web-push": "^3.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ECONNRESET
+      at exports._errnoException (util.js:1024:11)
+      at TLSWrap.onread (net.js:610:25)
